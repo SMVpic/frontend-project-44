@@ -1,7 +1,7 @@
 export const logic = (question, check) => {
         switch (question) {
             case check:
-                console.log('correct');
+                console.log('Correct!');
                 return true;
             default:
                 console.log(`${question} is wrong answer ;(. Correct answer was ${check}`);
@@ -20,3 +20,5 @@ export const logic = (question, check) => {
             return  num2 * num1;
         }
     }
+
+    
