@@ -1,4 +1,3 @@
-//
 import readlineSync from 'readline-sync'
 import {userName} from './cli.js'
 import {logic} from '../index.js'
@@ -19,13 +18,3 @@ while (num2 > 0) {
 t = logic(Number(quest), num1)
 }
 }
-/*
-if (Number(quest) === num1) {
-     console.log(`Your answer: ${}/nCorrect!`);
-     t = true;
-} else {
-     console.log('false');
-     t = false;
-     
-}
-*/
