@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import expression from '../src/games/expression.js';
-expression();
+import expression from '../src/games/expression.js'
+expression()
