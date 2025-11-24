@@ -23,7 +23,7 @@ for(let j = 0; j < 3 && t === true; j++) {
     let check = array[arrayIndex];
     array[arrayIndex] = '..';
     //Разделяем массив запятыми и выводим пользователю
-    let quest = array.join(',');
+    let quest = array.join(' ');
     console.log(`Question: ${quest}`);
     let question = readlineSync.question(`Your answer: `)
     //Сверяем ответ
