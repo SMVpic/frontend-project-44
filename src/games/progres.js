@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync'
-import userName from './cli.js'
+import { userName } from './cli.js'
 import { logic } from '../index.js'
-userName()
+
 export default () => {
   const array = []
   console.log('What number is missing in the progression?')
