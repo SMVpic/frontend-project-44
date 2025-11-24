@@ -4,9 +4,7 @@ import {logic} from '../index.js';
 
 export default () => {
 
-console.log("Welcome to the Brain Games!");
-const userName = readlineSync.question('May I have your name?   ');
-console.log('Hello, ' + userName + '!');
+
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 //Создаем переменную для выхода из цикла, если ответ неправильный
 let t = true;
@@ -25,7 +23,7 @@ if (trueOrFalse(num) === true) {
      check = 'no';
 }
 
-console.log(`Question: ${num}?`);
+console.log(`Question: ${num}`);
 //Узнаем у пользователя четное ли это число
 let question = readlineSync.question('Answer:' );
 
