@@ -36,6 +36,8 @@ t = logic(question.toLowerCase(), check);
 
 if (t === true) {
     console.log(`Congratulations, ${userName}!`);
+} else {
+    console.log(`Let's try again, ${userName}!`);
 }
 
 }

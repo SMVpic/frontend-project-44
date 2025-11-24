@@ -32,6 +32,8 @@ for(let j = 0; j < 3 && t === true; j++) {
 
 if (t === true) {
     console.log(`Congratulations, ${userName}!`);
+} else {
+    console.log(`Let's try again, ${userName}!`);
 }
 
 }
