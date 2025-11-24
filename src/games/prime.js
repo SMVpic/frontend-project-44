@@ -21,7 +21,7 @@ export default () => {
       }
     }
 
-    if (j === 1) {
+    if (j === 1 || num === 1) {
       check = 'no'
     }
     else {
