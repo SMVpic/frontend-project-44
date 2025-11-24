@@ -1,12 +1,13 @@
 import readlineSync from 'readline-sync';
-import {logic} from '../index.js'
+import {userName} from './cli.js';
+import {logic} from '../index.js';
 
 export default () => {
 
 console.log("Welcome to the Brain Games!");
 const userName = readlineSync.question('May I have your name?   ');
 console.log('Hello, ' + userName + '!');
-console.log('What is the result of the expression?');
+console.log('Answer "yes" if the number is even, otherwise answer "no".');
 //Создаем переменную для выхода из цикла, если ответ неправильный
 let t = true;
 
@@ -24,8 +25,9 @@ if (trueOrFalse(num) === true) {
      check = 'no';
 }
 
+console.log(`Question: ${num}?`);
 //Узнаем у пользователя четное ли это число
-let question = readlineSync.question(`Is it even: ${num}?`);
+let question = readlineSync.question('Answer:' );
 
 //Проверяем его ответ
 t = logic(question.toLowerCase(),check);
