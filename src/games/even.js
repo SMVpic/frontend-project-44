@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync'
-import { userName } from './cli.js'
+import userName from './cli.js'
 import { logic } from '../index.js'
-
+userName()
 export default () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".')
   // Создаем переменную для выхода из цикла, если ответ неправильный

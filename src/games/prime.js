@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync'
-import { userName } from './cli.js'
+import userName from './cli.js'
 import { logic } from '../index.js'
-
+userName()
 export default () => {
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
   let num
