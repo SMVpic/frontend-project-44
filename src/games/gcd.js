@@ -17,4 +17,9 @@ while (num2 > 0) {
 }
 t = logic(Number(quest), num1)
 }
+
+if (t === true) {
+    console.log(`Congratulations, ${userName}!`);
+}
+
 }
