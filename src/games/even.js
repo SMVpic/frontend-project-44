@@ -28,7 +28,7 @@ if (trueOrFalse(num) === true) {
 let question = readlineSync.question(`Is it even: ${num}?`);
 
 //Проверяем его ответ
-t = logic(question,check);
+t = logic(question.toLowerCase(),check);
 
 }
 
