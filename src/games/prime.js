@@ -4,7 +4,7 @@ import {logic} from '../index.js'
 
 
 export default () => {
-
+console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 let num;
 let check = 'no';
 let t = true;
