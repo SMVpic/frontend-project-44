@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync'
 import {userName} from './cli.js'
 import {logic} from '../index.js'
-console.log('Find the greatest common divisior of given numbers');
+console.log('Find the greatest common divisor of given numbers.');
 export default () => {
 let t = true;
 for (let i = 0; i < 3 && t === true; i++) {
